@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_register"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/container_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+    </LinearLayout>
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/toEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/input_register_bg"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_register"
+        android:textColorHint="@color/input_register_hint"
+        android:inputType="number"
+        android:hint="Phone Number" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/subject"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Subject"
+        android:background="@color/input_register_bg"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_register"
+        android:textColorHint="@color/input_register_hint">
+    </EditText>
+
+    <EditText
+        android:id="@+id/emailBody"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:gravity="top"
+        android:layout_marginLeft="10dp"
+        android:background="@color/input_register_bg"
+        android:hint="Enter mail body"
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_register"
+        android:textColorHint="@color/input_register_hint"
+        android:lines="7" />
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEND"
+        android:background="@drawable/mybutton"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:id="@+id/send"
+        />
+
+</LinearLayout>

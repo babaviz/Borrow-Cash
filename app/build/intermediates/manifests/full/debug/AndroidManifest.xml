@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.myfirstapp.shivamgupta.borrowcash"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="14" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.myfirstapp.shivamgupta.borrowcash.app.AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/bb"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.myfirstapp.shivamgupta.borrowcash.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.myfirstapp.shivamgupta.borrowcash.SecondActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.myfirstapp.shivamgupta.borrowcash.SecondActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.myfirstapp.shivamgupta.borrowcash.RegisterActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.myfirstapp.shivamgupta.borrowcash.RegisterActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.myfirstapp.shivamgupta.borrowcash.LenderActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.myfirstapp.shivamgupta.borrowcash.LenderActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.myfirstapp.shivamgupta.borrowcash.BorrowerActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.myfirstapp.shivamgupta.borrowcash.BorrowerActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.myfirstapp.shivamgupta.borrowcash.CalculatorActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.myfirstapp.shivamgupta.borrowcash.CalculatorActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.myfirstapp.shivamgupta.borrowcash.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.myfirstapp.shivamgupta.borrowcash.LoginActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.myfirstapp.shivamgupta.borrowcash.MyAccount"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.myfirstapp.shivamgupta.borrowcash.MyAccount" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.myfirstapp.shivamgupta.borrowcash.ContactUs"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.myfirstapp.shivamgupta.borrowcash.ContactUs" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.myfirstapp.shivamgupta.borrowcash.DetailsActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.myfirstapp.shivamgupta.borrowcash.DetailsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.myfirstapp.shivamgupta.borrowcash.GalleryActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.myfirstapp.shivamgupta.borrowcash.GalleryActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_register"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOW CAN WE SERVE YOU?"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        android:id="@+id/textView4"
+        android:textColor="@color/white" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+
+        <!-- Login Button -->
+
+        <Button
+            android:id="@+id/btnLender"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/mybutton"
+            android:text="As A Lender"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnBorrower"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/mybutton"
+            android:text="As a Borrower"
+            android:textColor="@color/white" />
+
+        <!-- Link to Login Screen -->
+
+   </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/Nitish/AndroidStudioProjects/BorrowCash/app/src/main/res/layout/activity_register.xml -->
